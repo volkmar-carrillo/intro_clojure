@@ -275,3 +275,9 @@ Ran 2 tests containing 10 assertions.
 ```
 
 Con estos resultados concluimos que una buena corrección para la función **subtotal** sería la implementación de **exceptions** para controlar sus tipos de datos y cantidades permitidas de los valores.
+
+
+
+**By**<br>
+**Volkmar Carrillo**<br>
+**carrillo.ramklov@gmail.com** 
