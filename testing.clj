@@ -17,7 +17,7 @@
     (let [item {:invoice-item/precise-quantity 3 :invoice-item/precise-price 10.0 :invoice-item/discount-rate 25}]
       (is (= (invoice-item/subtotal item) 22.5))))
 
-  (testing "Calculando Subtotal con el 50% de Descuentot"
+  (testing "Calculando Subtotal con el 50% de Descuento"
     (let [item {:invoice-item/precise-quantity 5 :invoice-item/precise-price 20.0 :invoice-item/discount-rate 50}]
       (is (= (invoice-item/subtotal item) 50.0))))
 
