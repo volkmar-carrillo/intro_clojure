@@ -4,9 +4,9 @@
                   :taxable/taxes            [{:tax/id       "t1"
                                               :tax/category :iva
                                               :tax/rate     19}]
-                  :retentionable/retentions [{:retentions/id       "r1"
-                                              :retentions/category :ret_fuente
-                                              :retentions/rate     1}]}
+                  :retentionable/retentions [{:retention/id       "r1"
+                                              :retention/category :ret_fuente
+                                              :retention/rate     1}]}
                  {:invoice-item/id  "ii2"
                   :invoice-item/sku "SKU 2"
                   :taxable/taxes    [{:tax/id       "t2"
